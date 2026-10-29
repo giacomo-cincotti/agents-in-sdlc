@@ -24,7 +24,7 @@ El taller tiene dos hitos de PR, cada uno en su propia rama a partir de `main` a
 1. **Valoraciones por estrellas:** mostrar el `starRating` existente y un estado explícito sin valoración en las tarjetas de juegos.
 2. **Filtrado y flujo de calidad:** implementar el filtrado, actualizar las instrucciones y aplicarlas a la funcionalidad, personalizar el informe de `quality-checks`, crear un perfil QA e incluir las pruebas asociadas.
 
-Desde la planificación del filtrado hasta la apertura de su PR, utilizaste la misma sesión, worktree y rama. Reunimos ese trabajo en una sola PR para agilizar el taller. Después, utilizaste Database Explorer y creaste un lienzo de clasificación respaldado por el repositorio sin repetir el flujo de PR.
+Desde la planificación del filtrado hasta la apertura de su PR, utilizaste la misma sesión, árbol de trabajo y rama. Reunimos ese trabajo en una sola PR para agilizar el taller. Después, utilizaste Database Explorer y creaste un lienzo de clasificación respaldado por el repositorio sin repetir el flujo de PR.
 
 ## Distintos tipos de verificación
 

@@ -104,7 +104,7 @@ O agente precisa do catálogo em um arquivo que possa ler. O exemplo do Tailspin
 
     ![Resumo da exportação do catálogo](../../../../_images/cli-8-export-db-catalog.png)
 
-2. Abra `db/catalog.json`. Confirme que ele contém 21 jogos com título, descrição, categoria, editora e avaliação em estrelas. O campo `note` informa que o catálogo não contém totais arrecadados, quantidades de apoiadores, níveis de apoio ou datas de lançamento. Também não há campos de preço, número de jogadores ou tempo de jogo. Essas ausências definem o limite que o agente deve respeitar.
+2. Abra `db/catalog.json`. Confirme que ele contém 21 jogos com título, descrição, categoria, distribuidora e avaliação em estrelas. O campo `note` informa que o catálogo não contém totais arrecadados, quantidades de apoiadores, níveis de apoio ou datas de lançamento. Também não há campos de preço, número de jogadores ou tempo de jogo. Essas ausências definem o limite que o agente deve respeitar.
 
 ## Planeje o trabalho com o Foundry
 

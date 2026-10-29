@@ -59,7 +59,7 @@ O script de exportação do catálogo fornece a fonte de dados que fundamenta as
    npm run db:export
    ```
 
-2. Abra `db/catalog.json` e confirme que ele contém vinte e um jogos, cada um com título, descrição, categoria, editora e avaliação em estrelas, além de um campo `note` que descreve as informações ausentes. Totais de financiamento, números de apoiadores, níveis de contribuição e datas de lançamento não estão presentes; o agente deve respeitar esse limite.
+2. Abra `db/catalog.json` e confirme que ele contém vinte e um jogos, cada um com título, descrição, categoria, distribuidora e avaliação em estrelas, além de um campo `note` que descreve as informações ausentes. Totais de financiamento, números de apoiadores, níveis de contribuição e datas de lançamento não estão presentes; o agente deve respeitar esse limite.
 
 ## Configurar um projeto do Foundry
 

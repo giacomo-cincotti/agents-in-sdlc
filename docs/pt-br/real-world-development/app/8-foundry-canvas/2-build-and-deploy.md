@@ -28,7 +28,7 @@ A Tailspin Toys precisa de um concierge que responda a perguntas reais sobre o c
 
 A inspeção e a implantação de agentes hospedados usam a Azure Developer CLI por meio do Canvas; o projeto e o modelo existentes do Foundry são reutilizados.
 
-1. Retome a mesma sessão vinculada à issue **Add a Backer Concierge assistant for catalog questions** do módulo 1. Confirme que `db/catalog.json` está intacto, que você está conectado à assinatura e ao projeto do Foundry corretos e que a implantação de modelo continua disponível. Se os recursos foram removidos na limpeza, repita primeiro as etapas relevantes da [configuração do projeto e do modelo][previous-module].
+1. Volte ao Codespace e retome a mesma sessão vinculada à issue **Add a Backer Concierge assistant for catalog questions** do módulo 1. Confirme que `db/catalog.json` está intacto, que você está conectado à assinatura e ao projeto do Foundry corretos e que a implantação de modelo continua disponível. Se os recursos foram removidos na limpeza, repita primeiro as etapas relevantes da [configuração do projeto e do modelo][previous-module].
 
 2. Selecione **+**, selecione **Terminal** e entre na Azure Developer CLI, concluindo a autenticação no navegador quando solicitado:
 
@@ -37,6 +37,7 @@ A inspeção e a implantação de agentes hospedados usam a Azure Developer CLI 
    ```
 
 3. Execute `azd config show` para verificar a assinatura do Azure. Se ela estiver vazia ou incorreta, atualize-a com `azd config set defaults.subscription <subscription-id>` e execute `azd config show` novamente para confirmar a alteração.
+
 ## Gerar a estrutura inicial do Backer Concierge
 
 O Canvas gera o código, a estrutura de pastas e o `azure.yaml` na raiz que conectam o Backer Concierge à implantação de modelo existente.
@@ -136,7 +137,7 @@ O Canvas gera o código, a estrutura de pastas e o `azure.yaml` na raiz que cone
 
     Resultado esperado: a segunda resposta se refere somente aos dois títulos da primeira resposta e compara corretamente as avaliações deles no catálogo.
 
-15. Compare cada resposta com `db/catalog.json` e os critérios de aceitação da issue. Confirme que o agente nunca inventa jogos, editoras, avaliações, totais arrecadados, números de apoiadores, preços, números de jogadores, durações de partidas ou datas de lançamento. Se o Agent Inspector relatar um erro ou uma resposta ultrapassar os limites das informações do catálogo, copie o resultado para a área de prompt do Canvas e peça ao Copilot que corrija o problema. Reinicie a inspeção local e execute novamente o teste que falhou após cada alteração; depois, confirme que todas as seis verificações passaram antes de implantar.
+15. Compare cada resposta com `db/catalog.json` e os critérios de aceitação da issue. Confirme que o agente nunca inventa jogos, distribuidoras, avaliações, totais arrecadados, números de apoiadores, preços, números de jogadores, durações de partidas ou datas de lançamento. Se o Agent Inspector relatar um erro ou uma resposta ultrapassar os limites das informações do catálogo, copie o resultado para a área de prompt do Canvas e peça ao Copilot que corrija o problema. Reinicie a inspeção local e execute novamente o teste que falhou após cada alteração; depois, confirme que todas as seis verificações passaram antes de implantar.
 
 ## Implantar e testar novamente o agente hospedado
 

@@ -15,12 +15,12 @@ A lo largo de esta práctica has trabajado con GitHub Copilot en varias tareas c
 
 ### Escenario
 
-Los fundamentos del diseño de software y DevOps no cambian con la incorporación de la IA generativa. Sigue siendo necesario un ciclo de revisión real de todo lo que produce Copilot. Teniendo esto en cuenta, vamos a enviar los cambios de accesibilidad desde el codespace, abrir una solicitud de incorporación de cambios y examinar las diferencias antes de involucrar al resto del equipo.
+Los fundamentos del diseño de software y DevOps no cambian con la incorporación de la IA generativa. Sigue siendo necesario un ciclo de revisión real de todo lo que produce Copilot. Teniendo esto en cuenta, vamos a enviar los cambios de accesibilidad desde el Codespace, abrir una solicitud de incorporación de cambios y examinar las diferencias antes de involucrar al resto del equipo.
 ## Publicar las funciones de accesibilidad
 
-Los controles de alto contraste y modo claro que has implementado con el agente personalizado de accesibilidad en el [ejercicio 4][exercise-4] y el [ejercicio 5][exercise-5] están en el codespace como cambios confirmados mediante commits. Vamos a enviarlos a una rama y a abrir una solicitud de incorporación de cambios para que el resto del equipo pueda revisarlos.
+Los controles de alto contraste y modo claro que has implementado con el agente personalizado de accesibilidad en el [ejercicio 4][exercise-4] y el [ejercicio 5][exercise-5] están en el Codespace como cambios confirmados mediante commits. Vamos a enviarlos a una rama y a abrir una solicitud de incorporación de cambios para que el resto del equipo pueda revisarlos.
 
-1. Vuelve al codespace.
+1. Vuelve al Codespace.
 2. Abre la vista **Source Control** en VS Code.
 3. Confirma que los cambios de accesibilidad están confirmados mediante commits. Si tienes cambios sin confirmar del ejercicio 5, añádelos al área de preparación y crea un commit ahora con un mensaje descriptivo como `Add high-contrast and light-mode toggles`.
 4. Publica la rama seleccionando **Publish Branch** (o utiliza el menú **...** → **Push**).
@@ -68,7 +68,7 @@ Aquí termina el itinerario obligatorio de VS Code. Puedes parar aquí con el ta
 
 Si quieres ampliar tu perspectiva sobre las capacidades de los agentes de Copilot, los otros itinerarios cubren escenarios relacionados a través de distintas interfaces:
 
-- 💻 **[Itinerario de CLI](../../cli/)**: realiza flujos similares desde el terminal con Copilot CLI: modo plan, habilidades de agente, agentes personalizados y comandos de barra como `/share`, `/context` y `/delegate`.
+- 💻 **[Itinerario de CLI](../../cli/)**: publica dos cambios revisados desde el terminal con los modos Plan y Autopilot, skills, un agente de QA personalizado, Playwright MCP, Agent Merge y traspasos con contexto.
 - ☁️ **[Itinerario del agente en la nube](../../cloud/)**: céntrate en asignar incidencias al agente en la nube, supervisar sesiones a través de la página de agentes e iterar de forma asíncrona sobre solicitudes de incorporación de cambios.
 
 También puedes seguir ampliando lo que has empezado aquí. [awesome-copilot][awesome-copilot] es una gran fuente de archivos de instrucciones, agentes personalizados y habilidades que puedes adaptar a tus propios proyectos.

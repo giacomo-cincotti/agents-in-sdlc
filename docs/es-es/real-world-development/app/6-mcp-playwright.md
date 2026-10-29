@@ -1,6 +1,6 @@
 ---
 title: "Lección 6 - Validar la funcionalidad con MCP de Playwright"
-description: "Configura MCP de Playwright mediante Customize y observa el filtrado en un navegador desde el worktree existente de la funcionalidad."
+description: "Configura MCP de Playwright mediante Customize y observa el filtrado en un navegador desde el árbol de trabajo existente de la funcionalidad."
 authors:
   - geektrainer
 lastUpdated: 2026-07-09

@@ -17,11 +17,11 @@ Nesta série, você vai:
 
 ## Cenário
 
-Os apoiadores do Tailspin Toys podem explorar jogos por categoria e editora, mas esses filtros não ajudam todo mundo a encontrar o próximo jogo. Alguns apoiadores têm perguntas como *Quais jogos seriam indicados para quem adora trocadilhos com Git?* Essas perguntas não têm respostas em menus suspensos.
+Os apoiadores do Tailspin Toys podem explorar jogos por categoria e distribuidora, mas esses filtros não ajudam todo mundo a encontrar o próximo jogo. Alguns apoiadores têm perguntas como *Quais jogos seriam indicados para quem adora trocadilhos com Git?* Essas perguntas não têm respostas em menus suspensos.
 
 O Tailspin Toys quer um **Backer Concierge** que ajude os apoiadores a descobrir jogos por meio de uma conversa. Ele deve recomendar jogos do catálogo do Tailspin, fazer uma pergunta breve de esclarecimento quando as preferências de alguém forem vagas e lembrar as recomendações anteriores quando essa pessoa fizer uma pergunta de acompanhamento.
 
-Os apoiadores precisam de respostas confiáveis. O concierge deve usar apenas informações do catálogo e deixar claro quando um detalhe não estiver disponível, em vez de inventar jogos, editoras, avaliações, totais arrecadados, quantidades de apoiadores, preços, números de jogadores, tempos de jogo ou datas de lançamento.
+Os apoiadores precisam de respostas confiáveis. O concierge deve usar apenas informações do catálogo e deixar claro quando um detalhe não estiver disponível, em vez de inventar jogos, distribuidoras, avaliações, totais arrecadados, quantidades de apoiadores, preços, números de jogadores, tempos de jogo ou datas de lançamento.
 
 ## Escolha seu próximo passo
 
@@ -74,7 +74,7 @@ Quando terminar de experimentar em qualquer etapa, remova os recursos do Azure p
 [project-model]: 1-project-and-model/
 [build-deploy]: 2-build-and-deploy/
 [connect-site]: 3-connect-to-site/
-[review]: ../9-review/
+[review]: ../10-review/
 [cleanup]: #limpe-seus-recursos
 [azure-skills]: https://github.com/microsoft/azure-skills#github-copilot-cli
 [foundry-skill]: https://learn.microsoft.com/azure/foundry/how-to/develop/use-microsoft-foundry-skill?tabs=copilot-cli
